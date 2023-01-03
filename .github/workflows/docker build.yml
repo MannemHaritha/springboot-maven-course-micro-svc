@@ -43,10 +43,10 @@ jobs:
         
     - name: Build the Docker image
       run: |
-        docker image build -t mannemharitha/springboot-maven-course-micro-svc:14 .
+        docker image build -t mannemharitha/springboot-maven-course-micro-svc:a1 .
     - name: Docker Push
       run: |
-        docker image push mannemharitha/springboot-maven-course-micro-svc:14
+        docker image push mannemharitha/springboot-maven-course-micro-svc:a1
 
 
 
