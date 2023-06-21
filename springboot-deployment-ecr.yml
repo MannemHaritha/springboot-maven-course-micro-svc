@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: springboot
-        image: 811502318109.dkr.ecr.us-east-1.amazonaws.com/devopsdemocicd:5
+        image: 255766941731.dkr.ecr.us-east-1.amazonaws.com/cicd:2
         ports:
         - containerPort: 8080
